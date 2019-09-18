@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wp</groupId>
+  <artifactId>ThirdHibernate</artifactId>
+  <version>1.1</version>
+  
+  <dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.0.Final</version>
+		</dependency>
+		
+		<!--  Due to Oracle license restriction, there are no public repositories that provide ojdbc jar.
+
+You need to download it and install in your local repository. Get jar from Oracle and install it in your local maven repository. -->
+		
+	</dependencies>
+</project>
